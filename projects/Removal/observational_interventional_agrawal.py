@@ -10,7 +10,6 @@ from ixai.imputer import MarginalImputer
 from ixai.imputer.tree_imputer import TreeImputer
 from ixai.storage import GeometricReservoirStorage
 from ixai.storage.tree_storage import TreeStorage
-from river.datasets.base import REG
 
 from scipy.stats import multivariate_normal as mvn
 
@@ -165,12 +164,13 @@ if __name__ == "__main__":
     axis_2.set_title(r"independent")
 
     axis_1.scatter([], [], marker="o", c="black", label="original data")
-    axis_1.scatter([], [], marker="+", c="blue", label="interventional")
-    axis_1.scatter([], [], marker="x", c="red", label="observational")
-    axis_1.legend(loc="upper right", fontsize="small", frameon=True, ncol=1, columnspacing=0.5, handletextpad=0., bbox_to_anchor=(1.62, 1), borderaxespad=0)
+    axis_1.scatter([], [], marker="+", c="blue", label="int. perturbation")
+    axis_1.scatter([], [], marker="x", c="red", label="obs. perturbation")
+    axis_1.legend(loc="upper right", fontsize="small", frameon=True, ncol=1, columnspacing=0.5,
+                  handletextpad=0., bbox_to_anchor=(1.82, 1), borderaxespad=0)
 
     plt.tight_layout()
-    plt.subplots_adjust(wspace=0, hspace=0, right=0.79)
+    plt.subplots_adjust(wspace=0, hspace=0, right=0.72)
 
     plt.savefig("agrawal_conditonal_vs_marginal.png")
 
