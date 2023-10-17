@@ -1,5 +1,7 @@
 # Paper Supplement: On Feature Removal for Explainability in Dynamic Environments
 
+Supplement Material for this research paper: https://doi.org/10.14428/esann/2023.ES2023-148
+
 The experiments and results presented in the paper are available in the `projects/Removal` module.
 The `projects/Removal` module contains the following submodules:
 
