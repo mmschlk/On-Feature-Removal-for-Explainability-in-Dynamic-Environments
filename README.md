@@ -1,6 +1,6 @@
 # Paper Supplement: On Feature Removal for Explainability in Dynamic Environments
 
-Supplement Material for this research paper: https://doi.org/10.14428/esann/2023.ES2023-148
+📖 Supplement Material for this research paper: https://doi.org/10.14428/esann/2023.ES2023-148
 
 The experiments and results presented in the paper are available in the `projects/Removal` module.
 The `projects/Removal` module contains the following submodules:
@@ -12,7 +12,7 @@ The `projects/Removal` module contains the following submodules:
 
 The implementation of the explainers can be found in the `iXAI` module. 
 
-## Running the experiments
+## 📊 Running the experiments
 1. Install requirements by running `pip install -r requirements.txt`.
 2. Navigate to iXAI root directory (`cd iXAI`) and install the ixai package by running `pip install .`.
 3. Navigate to the `projects/Removal` directory (`cd projects/Removal`) and run the experiments.
